@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+/* sheard styel */
+.display-flex{
+    display: flex;
+}
+
+/* colour-text */
+.white-rgb{
+    color: rgb(255, 255, 255);
+}
+.orange-rgb{
+    background-color: rgb(230, 83, 60);
+}
+
+*{
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+
+.navbar{
+    width: 100%;
+    height: 715px;
+    background-color: rgba(17, 17, 17, 1.00);
+    background-blend-mode: overlay;
+    justify-content: space-between;
+}
+
+.nav-item{
+    list-style: none;
+    margin-left: 45px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-right: 60px;
+}
+.nav-btn{
+    width: 100%;
+    height: 38px;
+    border-radius: 45px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.fitness{
+    margin-left: 190px;
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    font-family: inherit;
+}
